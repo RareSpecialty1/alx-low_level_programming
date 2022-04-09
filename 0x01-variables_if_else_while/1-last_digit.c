@@ -5,8 +5,6 @@
 /**
  * main - Entry point
  *
- * Description: Print a number and it's last digit along with whether its
- * last digit is 0, greater than 5, or less than 6 and not 0.
  * Return: Always 0 (Success/correct)
  */
 int main(void)
@@ -33,5 +31,5 @@ printf("Last digit of %i is %i and is less than 6 and not 0\n", n, n % 10);
 }
 
 
-return(0);
+return (0);
 }
